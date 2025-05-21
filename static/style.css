@@ -1,0 +1,145 @@
+/* Base Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 0.95rem;
+}
+
+a {
+    color: #915eeb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Flash Message */
+ul {
+    background-color: #ffdddd;
+    color: #a94442;
+    border: 1px solid #f5c6cb;
+    padding: 12px 18px;
+    border-radius: 6px;
+    list-style-type: none;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Container Card */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    max-width: 420px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Subtitles */
+.subtitle {
+    color: #555;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+/* Form Labels & Inputs */
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+/* Buttons */
+button,
+.btn {
+    display: inline-block;
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+}
+
+button {
+    background-color: #69ec27;
+    color: white;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Custom Button Groups */
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn-primary {
+    background-color: #69ec27;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #438821;
+}
+
+.btn-secondary {
+    background-color: #915eeb;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #752fee;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0);}
+}
