@@ -1,7 +1,7 @@
 /* Base Styles */
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #f4f6f8;
+    background-color: #bad2e9;
     margin: 0;
     padding: 0;
     display: flex;
@@ -105,7 +105,7 @@ button,
 }
 
 button {
-    background-color: #69ec27;
+    background-color: #7ead66;
     color: white;
 }
 
@@ -121,7 +121,7 @@ button:hover {
 }
 
 .btn-primary {
-    background-color: #69ec27;
+    background-color: #7ead66;
     color: white;
 }
 
